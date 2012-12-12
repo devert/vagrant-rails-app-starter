@@ -19,6 +19,10 @@ Cookbooks included:
 * [Vagrant](http://vagrantup.com/)
 * [Librarian](https://github.com/applicationsonline/librarian)
 
+## Optional
+
+* Keep Vagrant VM's VirtualBox Guest Additions up to date with [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) plugin.
+
 ### Usage
 
 Clone it into your project folder, install cookbook dependencies with Librarian-Chef, launch/create Vagrant VM...
