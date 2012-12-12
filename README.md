@@ -1,8 +1,10 @@
-# Vagrant Ruby App Starter
+# Vagrant Rails App Starter (Work in Progress)
 
 ### Intro
 
-A Ruby project starter, utilizing a Vagrant VM (default: Ubuntu Precise Pangolin 32-bit) provisioned with Chef Solo.
+***WORK IN PROGRESS.*** *Currently not functional.*
+
+A Rails 3 project starter, utilizing a Vagrant VM (default: Ubuntu Precise Pangolin 32-bit) provisioned with Chef Solo.
 
 Cookbooks included:
 
