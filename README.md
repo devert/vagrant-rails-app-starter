@@ -1,0 +1,2 @@
+vagrant-ruby-app-starter
+========================
