@@ -1,4 +1,4 @@
-# Vagrant Rails App Starter (Work in Progress)
+# Vagrant Rails App Starter
 
 ### Intro
 
@@ -14,6 +14,7 @@ Cookbooks included:
 
 ### Requirements
 
+* [VirtualBox](https://www.virtualbox.org/)
 * [Ruby](http://www.ruby-lang.org/en/)
 * [Vagrant](http://vagrantup.com/)
 * [Librarian](https://github.com/applicationsonline/librarian)
@@ -22,12 +23,12 @@ Cookbooks included:
 
 Clone it into your project folder, install cookbook dependencies with Librarian-Chef, launch/create Vagrant VM...
 
-    git clone https://github.com/devert/vagrant-ruby-app-starter project-name
-    rm -rf .git
-    cd vagrant
-    librarian-chef install
-    vagrant up
-    vagrant ssh
-    cd project-name
+    $ git clone https://github.com/devert/vagrant-rails-app-starter project-name
+    $ rm -rf .git
+    $ cd vagrant
+    $ librarian-chef install
+    $ vagrant up
+    $ vagrant ssh
+    $ cd project-name
 
 
