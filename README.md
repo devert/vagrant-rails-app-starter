@@ -10,6 +10,9 @@ Cookbooks included:
 
 * [apt](https://github.com/opscode-cookbooks/apt)
 * [build-essential](https://github.com/opscode-cookbooks/build-essential)
+* [ohai](https://github.com/opscode-cookbooks/ohai)
+* [nginx](https://github.com/opscode-cookbooks/nginx)
+* [rvm](https://github.com/fnichol/chef-rvm)
 * [vim](https://github.com/opscode-cookbooks/vim)
 
 ## Requirements
