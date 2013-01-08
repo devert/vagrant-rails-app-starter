@@ -2,7 +2,7 @@
 
 ---
 
-A Rails 3 project starter, utilizing a Vagrant VM (default: Ubuntu Precise Pangolin 32-bit) provisioned with Chef Solo.
+A Ruby on Rails project starter, utilizing a Vagrant VM (default: Ubuntu Precise Pangolin 32-bit) provisioned with Chef Solo.
 
 Cookbooks included:
 
@@ -25,6 +25,9 @@ Clone it into your project folder, install cookbook dependencies with Librarian-
 
     > git clone https://github.com/devert/vagrant-rails-app-starter [project-name]
     > rm -rf .git
+
+Open the vagrant/Vagrantfile and modify *proj-name* instances to the name of your project. Modify the Node.js and Ruby versions you would like installed in the *chef.json* attributes. Additionally, list any additional gems you would like installed in the *global_gems* array. See [chef_rvm](https://github.com/fnichol/chef-rvm) documentation for more details on rvm configuration.
+
     > cd vagrant
     > librarian-chef install
     > vagrant up
@@ -32,25 +35,25 @@ Clone it into your project folder, install cookbook dependencies with Librarian-
     > vagrant ssh
     > cd proj-name
     > rails new .
+    Overwrite /home/vagrant/proj-name/.gitignore? (enter "h" for help) [Ynaqdh] y
     > rails server
 
-After running the above commands you should be able to browse to http://locahost:3000 and see the rails "Welcome aboard" page.
+After running the above commands you should be able to browse to http://locahost:3000/ and see the rails "Welcome aboard" page. Changes to files via the host machine will immediately be updated on the guest VM as well. Now get in there and build something awesometronic with Ruby on Rails!
 
-## Optional (But Awesome)
+## Optional (But Pretty Great)
 
 #### Vagrant
-* Keep Vagrant VM's VirtualBox Guest Additions up to date with [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) plugin.
+* Keep Vagrant VM's VirtualBox Guest Additions up to date with [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) plugin. Install this on the host machine.
 		
 		> vagrant gem install vagrant-vbguest
 
-* Setup a custom host name for Vagrant VM and host OS with [vagrant-hostmaster](https://github.com/mosaicxm/vagrant-hostmaster.git)
+* Setup a custom host name for Vagrant VM and host OS with [vagrant-hostmaster](https://github.com/mosaicxm/vagrant-hostmaster.git). Install this on the host machine.
 	
 		> vagrant gem install vagrant-hostmaster
 
 	```ruby
 	# Uncomment the following in Vagrantfile
 	config.hosts.name = "proj-name.local"
-	config.vm.network :hostonly, "192.168.33.10"
 	```
 
 
