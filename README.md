@@ -27,7 +27,7 @@ $ git clone https://github.com/devert/vagrant-rails-app-starter [project-name]
 $ rm -rf .git
 ```
 
-Open the vagrant/Vagrantfile and modify *proj-name* instances to the name of your project. Modify the Node.js and Ruby versions you would like installed in the *chef.json* attributes. Additionally, list any additional gems you would like installed in the *global_gems* array. See [chef_rvm](https://github.com/fnichol/chef-rvm) documentation for more details on rvm configuration.
+Open the vagrant/Vagrantfile and modify *proj-name* instances to the name of your project. Modify the Node.js and Ruby versions you would like installed in the *chef.json* attributes. Additionally, list any additional gems you would like installed in the *gems* array. See [chef-rbenv](https://github.com/fnichol/chef-rbenv) documentation for more details on rbenv configuration.
 
 ```bash
 $ vagrant plugin install vagrant-librarian-chef
