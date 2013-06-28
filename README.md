@@ -42,7 +42,9 @@ $ rails server
 
 If the above fails when running the `rails new .` command, try running `sudo bundle install` and then run `rails new .` again.
 
-After running the above commands you should be able to browse to http://locahost:3000/ and see the rails "Welcome aboard" page. Changes to files via the host machine will immediately be updated on the guest VM as well. Now get in there and build something awesometronic with Ruby on Rails!
+After running the above commands you should be able to browse to http://locahost:3000/ and see the rails "Welcome aboard" page. Changes to files via the host machine will immediately be updated on the guest VM as well. 
+
+Now get in there and build something awesometronic with Ruby on Rails!
 
 ## Optional (But Pretty Great)
 
