@@ -7,7 +7,8 @@ Cookbooks included:
 * [apt](https://github.com/opscode-cookbooks/apt)
 * [build-essential](https://github.com/opscode-cookbooks/build-essential)
 * [nodejs](https://github.com/mdxp/nodejs-cookbook.git)
-* [rvm](https://github.com/fnichol/chef-rvm)
+* [rbenv](https://github.com/fnichol/chef-rbenv)
+* [ruby_build](https://github.com/fnichol/chef-ruby_build)
 * [vim](https://github.com/opscode-cookbooks/vim)
 
 ## Dependencies
