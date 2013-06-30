@@ -35,12 +35,12 @@ $ cd vagrant
 $ vagrant up
 $ vagrant ssh
 $ cd proj-name
-$ rails new .
+$ sudo rails new .
 Overwrite /home/vagrant/proj-name/.gitignore? (enter "h" for help) [Ynaqdh] y
 $ rails server
 ```
 
-If the above fails when running the `rails new .` command, try running `sudo bundle install` and then run `rails new .` again.
+If the above fails when running the `sudo rails new .` command, try running `sudo bundle install` and then run `rails new .` again.
 
 After running the above commands you should be able to browse to http://locahost:3000/ and see the rails "Welcome aboard" page. Changes to files via the host machine will immediately be updated on the guest VM as well. 
 
